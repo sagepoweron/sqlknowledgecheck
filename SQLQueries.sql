@@ -1,10 +1,8 @@
-3.
 SELECT CustomerName
 FROM Customers
 INNER JOIN Orders on Customers.CustomerId = Orders.CustomerId
 WHERE OrderId = 10310;
 
-4.
 SELECT Address
 FROM Suppliers
 INNER JOIN Products on Suppliers.SupplierId = Products.SupplierId
